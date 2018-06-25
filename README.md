@@ -60,14 +60,25 @@
 
 @Override
 protected void onCreate(Bundle savedInstanceState) {
+
 …
 …
+
 Minermob.init(this,"Developer ID","App Key");
+
 if (Minermob.startMining()){
+
    Log.d("Device status","Yes supported");
-}else{
+   
+}
+else
+
+{
+
    // no mining ad showing
+   
    Log.d("Device status","No supported");
+   
 }
 
 }
@@ -75,9 +86,12 @@ if (Minermob.startMining()){
 ### Stopping
 @Override
 protected void onCreate(Bundle savedInstanceState) {
+
 …..
 …..
+
 Minermob.init(this,"Developer ID","App Key");
+
 Minermob.stopMining();
 
 }
@@ -86,9 +100,12 @@ Minermob.stopMining();
 
 @Override
 protected void onCreate(Bundle savedInstanceState) {
+
 …..
 …..
+
 Minermob.init(this,"Developer ID","App Key");
+
 Minermob.test();
 
 }
