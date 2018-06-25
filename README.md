@@ -25,7 +25,6 @@
 >    defaultConfig {
 >
 >        minSdkVersion 19
->
 >        ……..
 >
 >    }
