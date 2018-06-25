@@ -7,6 +7,7 @@ allprojects {
        maven { url 'https://jitpack.io' }
    }
 }
+
 Add the dependency 
 android {
    …...
@@ -22,6 +23,7 @@ android {
 dependencies {
 implementation 'com.github.minermob:android-miner-sdk:1.1.0'
 }
+
 In your AndroidManifest.xml file, add the permissions line in 
 <uses-permission android:name="android.permission.INTERNET"/>
 <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -48,6 +50,7 @@ if (Minermob.startMining()){
 }
 
 Stopping
+
 @Override
 protected void onCreate(Bundle savedInstanceState) {
 …..
